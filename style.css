@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.topContainer {
+ background: linear-gradient(black, gray, black);
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8em 2.5em;
+}
+nav .logo {
+  width: 10vw;
+  height: 5vh;
+}
+nav ul {
+  display: flex;
+  gap: 5em;
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+nav .download-cover {
+  padding: 0 0.2em 0.2em 0;
+  border: 1px solid white;
+  border-radius: 12px;
+  border-top: none;
+  border-left: none;
+}
+nav .download {
+  padding: 0.5em;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  color: #000;
+  font-weight: bold;
+  border: none;
+}
+.firstSection {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  padding: 1em 2em;
+}
+.firstSection .text h1 {
+  width: 40vw;
+  font-size: xx-large;
+}
+.firstSection .text p {
+  padding: 1.3em 0;
+  width: 40vw;
+}
+.firstSection .image-container {
+  padding: 1em 0.2em;
+}
+.firstSection .image-container .img1 {
+  width: 40vw;
+  height: 80vh;
+}
+
+.firstSection .buttons {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.firstSection .buttons .btn1 {
+  padding: 0.5em 1.5em;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #000;
+  color: #ffff;
+  font-weight: bold;
+}
+.firstSection .btn2-cover {
+  padding: 0 0.2em 0.2em 0;
+  border: 1px solid white;
+  border-radius: 12px;
+  border-top: none;
+  border-left: none;
+}
+.firstSection .btn2-cover .btn2 {
+  padding: 0.5em 1.5em;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  color: #000;
+  font-weight: bold;
+  border: none;
+}
+.second-container {
+  background: linear-gradient(white, whitesmoke, white);
+  padding: 1em;
+}
+.logo {
+  background-color: black;
+  width: 10vw;
+  height: 5vh;
+}
+.logo-div {
+  padding: 1em 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.s-list {
+  margin-top: 6em;
+  padding: 0.5em 2.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f-grid {
+  width: 30%;
+}
+.f-grid article p {
+  margin: 1em 0;
+  display: grid;
+}
+.s-list-img {
+  background-color: black;
+  padding: 0.5em;
+  border-radius: 5em;
+  width: 25vw;
+  height: 7vh;
+  margin-bottom: 1em;
+}
+.center-img .img1 {
+  width: 30vw;
+  height: 70vh;
+}
+.th-container {
+  background-color: #000;
+  color: #ffff;
+  padding: 3em 2em;
+}
+.th-container h2 {
+  text-align: center;
+}
+.th-container .th-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2em;
+  padding: 1em 3em;
+}
+.th-container .th-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.th-container .th-content ul li {
+  font-size: x-large;
+}
+.th-container .th-content .th-img {
+  width: 30vw;
+  height: 70vh;
+}
+.fth-container {
+  padding: 3em 2em;
+}
+.fth-container h1 {
+  text-align: center;
+}
+.fth-container .card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fth-container .card-container .card {
+  width: 30vw;
+  height: 40vh;
+}
+.fth-container .card-container h2 {
+  text-align: center;
+}
